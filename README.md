@@ -1,36 +1,29 @@
- # 🐍 Basic Python Programs
+python-assignment2
 
-This repository contains a single Python file that includes **two beginner-level Python programs**.  
-These programs help understand **conditional statements**, **loops**, and **user input**.
+Description  
+This repository contains Python programs created as part of an assignment.  
+The programs demonstrate basic concepts such as conditional statements and loops.
 
----
+Tasks Included  
 
-## 📌 Program 1: Even or Odd Number Checker
+Task 1: Even or Odd Number Checker  
+- Takes a number as input from the user  
+- Checks whether the number is even or odd  
+- Displays the result  
 
-### Description
-This program takes a number from the user and checks whether the number is **even or odd** using the modulus operator (`%`).
+Task 2: Sum of Numbers from 1 to 50  
+- Uses a for loop to iterate from 1 to 50  
+- Calculates the sum of all integers in this range  
+- Displays the final sum  
 
-### Code
-```python
-num = int(input("Enter a number: "))
+Files  
+task1.py: Python script to check whether a number is even or odd  
+task2.py: Python script to calculate the sum of numbers from 1 to 50  
 
-if num % 2 == 0:
-    print(f"{num} is an even number.")
-else:
-    print(f"{num} is an odd number.")
-
-
-
-## 📌 Program 2: Sum of Numbers from 1 to 50
-
-### Description
-This program uses a **for loop** to calculate the sum of all integers from **1 to 50** and displays the final sum.
-
-### Code
-```python
-total = 0
-for i in range(1, 51):
-    total = total + i
-
-print(f"The sum of numbers from 1 to 50 is : {total}")
+How to Run  
+- Make sure Python is installed on your system  
+- Open terminal or command prompt  
+- Run the files using:  
+  python task1.py  
+  python task2.py  
 
